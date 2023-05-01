@@ -1,13 +1,16 @@
-h3 {
-  margin: 15px 0 0 0;
-  text-align: left;
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
 }
 ul {
-  margin: 20px 0 0 0;
-  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 li {
-  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 input {
   /* border: none; */
@@ -42,10 +45,15 @@ button:hover {
   font-size: medium;
   margin: 0 0 0 0;
 }
-.container {
+.weather-app-wrapper {
   max-width: 800px;
   margin: 30px auto;
-  padding: 30px 60px 0 60px;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  margin: 30px 40px;
+  padding: 20px;
 }
 .emoji {
   margin-left: -38px;
@@ -64,5 +72,5 @@ button:hover {
 }
 .footer {
   font-size: small;
-  margin-left: 60px;
+  margin-left: 0;
 }
