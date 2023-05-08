@@ -15,39 +15,11 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-input {
-  /* border: none; */
-  padding: 0 10px;
-  margin: 0 30px 0 0;
-  width: 80%;
-  height: 35px;
-  background: none;
-  border-radius: 5px;
-}
-button {
-  color: white;
-  background-color: blue;
-  border: none;
-  padding: 4px 15px;
-  border: 1px solid blue;
-  border-radius: 5px;
-  transition: all 200ms ease-in-out;
-}
+
 a {
   text-decoration: none;
 }
-button:hover {
-  background-color: #6060f1;
-  color: white;
-  opacity: 0.6;
-  cursor: pointer;
-  box-shadow: 5px 5px 5px rgba(35, 14, 131, 0.1);
-}
-/* .size { */
-/* font-weight: normal; */
-/* font-size: medium; */
-/* margin: 0 0 0 0; */
-/* } */
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -76,18 +48,3 @@ button:hover {
   font-size: 16px;
   top: 7px;
 }
-/* .emoji { */
-/* margin-left: -38px; */
-/* } */
-/* .temperature { */
-/* font-weight: bold; */
-/* margin-left: 20px; */
-/* } */
-/* .quality { */
-/* margin-left: 390px; */
-/* list-style: none; */
-/* margin-top: -22px; */
-/* } */
-/* .each-quality { */
-/* display: list-item; */
-/* } */
