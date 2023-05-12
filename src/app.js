@@ -46,10 +46,6 @@ function handelSubmit(event) {
   cityInputElement.addEventListener("submit", search);
   search(cityInputElement.value);
 }
-let form = document.querySelector("#search-form");
-form.addEventListener("submit", handelSubmit);
-
-let celsiusTemperature = null;
 
 function displayFarenheitTemperature(event) {
   event.preventDefault();
@@ -67,7 +63,14 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handelSubmit);
+
+let celsiusTemperature = null;
+
 let farenheitLink = document.querySelector("#farenheit-link");
 let celsiusLink = document.querySelector("#celsius-link");
 farenheitLink.addEventListener("click", displayFarenheitTemperature);
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+search("Paris");
