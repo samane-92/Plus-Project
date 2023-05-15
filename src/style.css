@@ -18,6 +18,9 @@ li:first-letter {
 a {
   text-decoration: none;
 }
+img {
+  width: 36px;
+}
 
 .weather-app-wrapper {
   max-width: 600px;
@@ -52,4 +55,19 @@ a {
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.weather-forcast {
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+}
+.weather-forcast-date {
+  font-size: 20px;
+  opacity: 0.5;
+}
+.weather-forcast-temp {
+  font-size: 13px;
+}
+.weather-forcast-temp-min {
+  opacity: 0.5;
 }
